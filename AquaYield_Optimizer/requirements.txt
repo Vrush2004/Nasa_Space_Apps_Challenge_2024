@@ -124,6 +124,7 @@ PyRect==0.2.0
 PyScreeze==0.1.30
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
+python-3.9.16
 pytweening==1.2.0
 pytz==2024.1
 pywhatkit==5.4
@@ -152,7 +153,6 @@ tenacity==8.3.0
 tensorboard==2.17.0
 tensorboard-data-server==0.7.2
 tensorflow==2.17.0
-tensorflow-intel==2.17.0
 termcolor==2.4.0
 threadpoolctl==3.5.0
 tkcalendar==1.6.1
