@@ -87,7 +87,7 @@ mysqlclient==2.2.4
 namex==0.0.8
 nest-asyncio==1.6.0
 networkx==3.3
-numpy==1.21.6
+numpy>=1.24.0
 openai==1.37.1
 opencv-contrib-python==4.10.0.84
 opencv-python==4.6.0.66
