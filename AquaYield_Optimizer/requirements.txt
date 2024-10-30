@@ -50,8 +50,8 @@ google-auth-httplib2==0.2.0
 google-generativeai==0.8.3
 google-pasta==0.2.0
 googleapis-common-protos==1.65.0
+grpcio-status==1.48.0
 grpcio==1.66.2
-grpcio-status==1.66.2
 gunicorn==20.1.0
 h11==0.14.0
 h5py==3.11.0
@@ -100,7 +100,7 @@ platformdirs==4.2.2
 plotly==5.22.0
 plyer==2.1.0
 proto-plus==1.24.0
-protobuf>=3.20.2,<5.0.0
+protobuf>=3.20.2,<4.21.6
 psutil==5.9.8
 ptyprocess==0.7.0
 pyarrow==17.0.0
