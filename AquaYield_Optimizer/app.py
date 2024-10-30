@@ -1,10 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
+import os
 from data_analysis import perform_soil_moisture_analysis
 from testapi import predict_diseases_with_symptoms
 
 app = Flask(__name__)
-
+    
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -108,4 +109,5 @@ def sample_data():
                            crop_data_table=crop_data_table)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
